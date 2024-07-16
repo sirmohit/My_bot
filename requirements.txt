@@ -1,0 +1,3 @@
+python-dotenv #it will secure my secret creddential from user like openai key .it will ignore it.or it is used to organise my secret credential.
+aiogram # it is a python package which used to connect with telegram
+openai # 
