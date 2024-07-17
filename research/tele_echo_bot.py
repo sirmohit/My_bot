@@ -24,19 +24,20 @@ async def command_start_handler(message: types.Message):
     await message.reply("Hi\n I am Echo Bot! \n How can I help you.")
 
 @dp.message_handler() 
-async def echo(message: types.Message):
+async def clear(message: types.Message):
     """
-    This will return echo
+    A will return echo.
     """
+
     await message.answer(message.text)
 
 async def main():
     # Start polling
     await dp.start_polling()
-
-#if __name__ == "_main_":
-   # executor.start_polling(dp, skip_updates=True)
-
+"""
+if __name__ == "_main_":
+   executor.start_polling(dp, skip_updates=True)
+"""
 if __name__ == '__main__':
     # Run the main function in the asyncio event loop
     asyncio.run(main())
