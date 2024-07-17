@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import os
-from aiogram import Bot, Dispatcher,executor,types
+from aiogram import Bot, Dispatcher,types
 import asyncio
 from aiogram.types import ParseMode
 import openai
