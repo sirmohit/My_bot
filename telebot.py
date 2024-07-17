@@ -42,12 +42,6 @@ async def welcome(message: types.Message):
     """
     await message.reply("Hi\n I am Tele Bot \n Created by Mohit \n How can I assist you?")
 
-@dispatcher.message_handler(commands=['start']) 
-async def command_start_handler(message: types.Message):
-    """
-    This handler receives messages with `/start` command or `/help` command
-    """
-    await message.reply("Hi\n I am Tele Bot \n Created by Mohit \n How can I assist you?")
 
 @dispatcher.message_handler(commands = ['clear']) 
 async def clear(message: types.Message):
