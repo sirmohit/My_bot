@@ -1,8 +1,8 @@
 import logging
-import asyncio
-from aiogram.types import ParseMode
-from aiogram import Bot, Dispatcher,executor,types
+from aiogram import Bot, Dispatcher,types
 from dotenv import load_dotenv
+import asyncio
+#from aiogram.types import ParseMode
 import os
 
 load_dotenv()
