@@ -2,7 +2,7 @@ import logging
 from aiogram import Bot, Dispatcher,types
 from dotenv import load_dotenv
 import asyncio
-#from aiogram.types import ParseMode
+from aiogram.types import ParseMode
 import os
 
 load_dotenv()
